@@ -29,8 +29,12 @@
     </div>
     <script>
         document.getElementsByClassName("button1")[0].addEventListener('click',sound1);
+        const items = ['audio1.mp3', 'audio2.mp3']
+        var audio = new Audio(items[Math.floor(Math.random()*items.length)]);
         function sound1(){
-            var audio = new Audio('audio.mp3');
+            audio.pause();
+            audio.currentTime = 0;
+            audio = new Audio(items[Math.floor(Math.random()*items.length)]);
             audio.play();
         }
     </script>
