@@ -22,19 +22,19 @@
     </div>
     <div class="button1"></div>
     <div class=screen>
-
+ 
     </div>
     <div class="bottom">
         
     </div>
     <script>
         document.getElementsByClassName("button1")[0].addEventListener('click',sound1);
-        const items = ['audio1.mp3', 'audio2.mp3']
-        var audio = new Audio(items[Math.floor(Math.random()*items.length)]);
+        const audios = ['audio1.mp3', 'audio2.mp3']
+        var audio = new Audio(audios[Math.floor(Math.random()*audios.length)]);
         function sound1(){
             audio.pause();
             audio.currentTime = 0;
-            audio = new Audio(items[Math.floor(Math.random()*items.length)]);
+            audio = new Audio(audios[Math.floor(Math.random()*audios.length)]);
             audio.play();
         }
     </script>
