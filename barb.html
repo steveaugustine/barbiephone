@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Baribie Phone</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+    <div class=title>
+        <h1>Barbie</h1>
+    </div>
+    <div class="bar">
+            
+    </div>
+    <div class="rect"></div>
+    <img src="https://cdn.pixabay.com/photo/2016/03/16/15/18/beauty-1260975_1280.jpg" alt="">
+   <div class="hinge"></div>
+   <div class="hinge2"></div>
+    <div class="hinge3"></div>
+    <div class="hing4"></div>    
+    <div class=display>
+
+    </div>
+    <div class="button1"></div>
+    <div class=screen>
+
+    </div>
+    <div class="bottom">
+        
+    </div>
+    <script>
+        document.getElementsByClassName("button1")[0].addEventListener('click',sound1);
+        function sound1(){
+            var audio = new Audio('audio.mp3');
+            audio.play();
+        }
+    </script>
+</body>

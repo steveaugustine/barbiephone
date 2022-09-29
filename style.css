@@ -1,0 +1,150 @@
+body{
+    margin: 0%;
+    background-color: #A7FFE4;
+    font-family:'Merriweather',serif;
+
+
+}
+.title{
+    text-align: center;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+
+
+    margin:top 100px;
+
+
+
+}
+.bar{
+    
+    position:fixed;
+    top:0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    
+;
+    
+    background-color:#e80f86d7;
+}
+
+.screen{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    background-color:#FF74B1;
+}
+.rect{
+    position:absolute;
+    top: 25%;
+    left: 39.58%;
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+
+}
+.display{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    border-color: rgb(88, 88, 67);
+    background-color:#FF74B1;
+
+}
+.screen{
+    position: absolute;
+    top: 75%;
+    left: 39.58%;
+    transform: translate(-50%, -50%);
+    transform:rotate(180deg);
+    height: 100px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    background-color:#FF74B1;
+}
+img{
+    position: absolute;
+    height: 188px;
+    width: 300px;
+    top: 25%;
+    left: 39.58%;
+}
+.hinge{
+    position: absolute;
+    top: 50%;
+    left: 39.58%;
+    width: 300px;
+    height: 5px;
+    background-color:#FFD6EC;
+}
+.hinge2{position: absolute;
+    top: 26.8%;
+    left: 60.1%;
+    width: 5px;
+    height: 175px;
+    background-color:#FFD6EC;
+    
+
+}
+.hinge3{position: absolute;
+    top: 26.8%;
+    right: 60.1%;
+    width: 5px;
+    height: 175px;
+    background-color:#FFD6EC;
+    
+
+
+}
+
+.hing4{
+    position: absolute;
+    top: 26.8%;
+    left: 39.58%;
+    width: 300px;
+    height: 5px;
+    background-color:#FFD6EC;
+}
+.button1{
+        position: absolute;
+        top: 58%;
+        left: 46.9%;
+        width: 50px;
+        height: 50px;
+        background-color:#937DC2;
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      
+}
+.button1:hover {
+    background-color: #C689C6;
+  }
+
+
+
+.bottom{
+
+    height: 80px;
+    width:100%;
+    background-color:#e80f86d7;
+
+
+    position: fixed;
+    bottom: 0%;
+}
