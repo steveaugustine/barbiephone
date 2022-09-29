@@ -29,25 +29,19 @@ body{
     background-color:#e80f86d7;
 }
 
-.screen{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100px;
-    width: 300px;
-    border-radius: 150px 150px 0 0;
-    background-color:#FF74B1;
-}
+
 .rect{
     position:absolute;
-    top: 25%;
-    left: 39.58%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+justify-content: center;
     width: 300px;
     height: 400px;
     background-color: aliceblue;
 
 }
+
 .display{
     position: absolute;
     top: 20%;
@@ -62,62 +56,28 @@ body{
 }
 .screen{
     position: absolute;
-    top: 75%;
-    left: 39.58%;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    transform:rotate(180deg);
+    
     height: 100px;
     width: 300px;
-    border-radius: 150px 150px 0 0;
+    border-radius: 0px 0px 150px 150px;
     background-color:#FF74B1;
 }
 img{
     position: absolute;
     height: 188px;
     width: 300px;
-    top: 25%;
-    left: 39.58%;
-}
-.hinge{
-    position: absolute;
-    top: 50%;
-    left: 39.58%;
-    width: 300px;
-    height: 5px;
-    background-color:#FFD6EC;
-}
-.hinge2{position: absolute;
-    top: 26.8%;
-    left: 60.1%;
-    width: 5px;
-    height: 175px;
-    background-color:#FFD6EC;
-    
-
-}
-.hinge3{position: absolute;
-    top: 26.8%;
-    right: 60.1%;
-    width: 5px;
-    height: 175px;
-    background-color:#FFD6EC;
-    
-
-
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.hing4{
-    position: absolute;
-    top: 26.8%;
-    left: 39.58%;
-    width: 300px;
-    height: 5px;
-    background-color:#FFD6EC;
-}
 .button1{
         position: absolute;
         top: 58%;
-        left: 46.9%;
+        left: 46.8%;
         width: 50px;
         height: 50px;
         background-color:#937DC2;
