@@ -11,8 +11,9 @@
     <div class="bar">
             
     </div>
+<article class="container">  
     <div class="rect"></div>
-    <img src="https://cdn.pixabay.com/photo/2016/03/16/15/18/beauty-1260975_1280.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2016/03/16/15/18/beauty-1260975_1280.jpg" alt="" id="brb">
    <div class="hinge"></div>
    <div class="hinge2"></div>
     <div class="hinge3"></div>
@@ -25,17 +26,28 @@
  
     </div>
     <div class="bottom">
+    </div>  
         
-    </div>
+    </article>
     <script>
         document.getElementsByClassName("button1")[0].addEventListener('click',sound1);
         const audios = ['audio1.mp3', 'audio2.mp3']
-        var audio = new Audio(audios[Math.floor(Math.random()*audios.length)]);
+        var random=Math.floor(Math.random()*audios.length)
+        var audio = new Audio(audios[random]);
         function sound1(){
+            document.getElementById("brb").src = "brb.jpg";
             audio.pause();
-            audio.currentTime = 0;
+            audio.currentTime = 1;
             audio = new Audio(audios[Math.floor(Math.random()*audios.length)]);
             audio.play();
+            if(audio.ended){
+                document.getElementById("brb").src = "https://cdn.pixabay.com/photo/2016/03/16/15/18/beauty-1260975_1280.jpg";
+            }
+            else{
+                document.getElementById("brb").src = "brb.jpg";
+            }
+           
+            
         }
     </script>
 </body>
